@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "store_id": "kaanaldemir-apps",
+  "name": "Kaan Aldemir Apps",
+  "description": "Personal self-hosted applications packaged for ZimaOS.",
+  "maintainer": "kaanaldemir",
+  "url": "https://github.com/kaanaldemir/zimaos-appstore"
+}

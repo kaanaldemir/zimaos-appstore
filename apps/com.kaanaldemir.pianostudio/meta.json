@@ -1,0 +1,26 @@
+{
+  "tagline": "Tarayıcıda MIDI piyano stüdyosu.",
+  "description": "Tarayıcıda MIDI piyano stüdyosu.",
+  "author": "kaanaldemir",
+  "developer": "midee contributors / kaanaldemir",
+  "category": "Media",
+  "architectures": [
+    "amd64"
+  ],
+  "repo": "https://github.com/kaanaldemir/midee-selfhost",
+  "tips": {
+    "before_install": "MIDI ve kayıt dosyaları tarayıcıda tutulur. Aynı portta mevcut bir uygulama varsa kurulum portunu değiştirin."
+  },
+  "update_at": "2026-10-17",
+  "title": "Piano Studio",
+  "base_url": "https://kaanaldemir.github.io/zimaos-appstore",
+  "id": "com.kaanaldemir.pianostudio",
+  "version": "1.0.1792195850",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 99227497
+  }
+}

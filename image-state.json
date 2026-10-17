@@ -1,0 +1,51 @@
+{
+  "com.kaanaldemir.smartcontrol": {
+    "identity": "5853f1ce3bb5a78c9736a7355c7de6317d1a9174dee55a698c36048e7afc78d0",
+    "version": "1.0.1792195849",
+    "update_at": "2026-10-17",
+    "images": {
+      "smart-control": "sha256:fd402a9fcd170a858aaae3e53c6387ecd3b65d0cceba000121b0487b439455b4"
+    }
+  },
+  "com.kaanaldemir.pianostudio": {
+    "identity": "8c62d45e345528708d980f12708ccea954f9b551d848afa376b2d5a6d9ff88b3",
+    "version": "1.0.1792195850",
+    "update_at": "2026-10-17",
+    "images": {
+      "piano-studio": "sha256:4e5a09b1b3f1414da8ab367900ec8ba4df208f03fea9f312c4f341a43ebdc92d"
+    }
+  },
+  "com.kaanaldemir.projectzomboid": {
+    "identity": "ab26d8f71269877733cc49d1c408805410b8a9c0a0522f05f62d299b8e495798",
+    "version": "1.0.1792195850",
+    "update_at": "2026-10-17",
+    "images": {
+      "panel": "sha256:480ee420d922a1ea4c193f801ec8d5304d96b5c093d79645f8d2b1ebd05e9974"
+    }
+  },
+  "com.kaanaldemir.shinobi": {
+    "identity": "5d510b6a8b692df4e86c7f69764584e898aebd8ecc93a3f0c4aeeb7be1ad338c",
+    "version": "1.0.1792195851",
+    "update_at": "2026-10-17",
+    "images": {
+      "shinobi": "sha256:6f4eb195d036a8975cb1865f6d27f7b9fbd2ec371efcdd9318c220786dd823b7",
+      "database": "sha256:7db29378d4fdab73f8123bbc2b48905c90d1a4b00cf848b028f1e81e623257f2"
+    }
+  },
+  "com.kaanaldemir.headplane": {
+    "identity": "2deec8d8a27a59708220a148c6d63ed5045737caa15654ff8f882f8172984c24",
+    "version": "1.0.1792195851",
+    "update_at": "2026-10-17",
+    "images": {
+      "headplane": "sha256:415509d21245caf1c9e130f36c1a54f1dbabd6f2125a9f3c8b6ed9d8760c1a99"
+    }
+  },
+  "com.kaanaldemir.paperkeep": {
+    "identity": "873258edeaf7e6ca1fd1a4ca4bf2aba39010307956ea6f73cb7e70a710cd4655",
+    "version": "1.0.1792195851",
+    "update_at": "2026-10-17",
+    "images": {
+      "paperkeep": "sha256:0d02ff0c924ece1394dc67a19bd91e0183c181d0ce21235f579472be5ce4db3e"
+    }
+  }
+}

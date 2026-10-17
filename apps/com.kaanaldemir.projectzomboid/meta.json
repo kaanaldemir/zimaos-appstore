@@ -1,0 +1,26 @@
+{
+  "tagline": "Project Zomboid sunucusu ve kontrol paneli.",
+  "description": "Project Zomboid sunucusu ve kontrol paneli.",
+  "author": "kaanaldemir",
+  "developer": "fpsacha / kaanaldemir",
+  "category": "Others",
+  "architectures": [
+    "amd64"
+  ],
+  "repo": "https://github.com/kaanaldemir/zomboid-allinone-image",
+  "tips": {
+    "before_install": "LAN IP ve CORS_ORIGINS değerlerini ayarlayın. Güncellemeden önce oyun sunucusunu panelden durdurun; ardından PanelBridge Auto Configure/Update çalıştırın. Eski kurulumun kayıtlarını otomatik devralmaz."
+  },
+  "update_at": "2026-10-17",
+  "title": "Project Zomboid",
+  "base_url": "https://kaanaldemir.github.io/zimaos-appstore",
+  "id": "com.kaanaldemir.projectzomboid",
+  "version": "1.0.1792195850",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 267258447
+  }
+}

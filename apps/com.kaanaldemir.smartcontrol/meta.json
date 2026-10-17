@@ -1,0 +1,26 @@
+{
+  "tagline": "WiZ ve Xiaomi akıllı priz kontrolü.",
+  "description": "WiZ ve Xiaomi akıllı priz kontrolü.",
+  "author": "kaanaldemir",
+  "developer": "kaanaldemir",
+  "category": "Home",
+  "architectures": [
+    "amd64"
+  ],
+  "repo": "https://github.com/kaanaldemir/zimaos-smart-control",
+  "tips": {
+    "before_install": "Kurulumdan önce cihaz IP adreslerini, Xiaomi tokenini ve kullanıcı adı/şifreyi ayarlayın. Mevcut Smart Control kurulumunu otomatik devralmaz."
+  },
+  "update_at": "2026-10-17",
+  "title": "Smart Control",
+  "base_url": "https://kaanaldemir.github.io/zimaos-appstore",
+  "id": "com.kaanaldemir.smartcontrol",
+  "version": "1.0.1792195849",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 63137773
+  }
+}

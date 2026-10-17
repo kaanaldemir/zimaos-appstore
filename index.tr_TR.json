@@ -1,0 +1,34 @@
+{
+  "apps": [
+    {
+      "id": "com.kaanaldemir.headplane",
+      "tagline": "Headscale yönetimi ve WebSSH destekli Headplane.",
+      "title": "Headplane WebSSH"
+    },
+    {
+      "id": "com.kaanaldemir.paperkeep",
+      "tagline": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi.",
+      "title": "Paperkeep"
+    },
+    {
+      "id": "com.kaanaldemir.pianostudio",
+      "tagline": "Tarayıcıda MIDI piyano stüdyosu.",
+      "title": "Piano Studio"
+    },
+    {
+      "id": "com.kaanaldemir.projectzomboid",
+      "tagline": "Project Zomboid sunucusu ve kontrol paneli.",
+      "title": "Project Zomboid"
+    },
+    {
+      "id": "com.kaanaldemir.shinobi",
+      "tagline": "Kamera kaydı ve izleme; Intel FFmpeg destekli imaj.",
+      "title": "Shinobi"
+    },
+    {
+      "id": "com.kaanaldemir.smartcontrol",
+      "tagline": "WiZ ve Xiaomi akıllı priz kontrolü.",
+      "title": "Smart Control"
+    }
+  ]
+}

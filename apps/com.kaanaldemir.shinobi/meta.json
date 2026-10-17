@@ -1,0 +1,26 @@
+{
+  "tagline": "Kamera kaydı ve izleme; Intel FFmpeg destekli imaj.",
+  "description": "Kamera kaydı ve izleme; Intel FFmpeg destekli imaj.",
+  "author": "kaanaldemir",
+  "developer": "Shinobi Systems / kaanaldemir",
+  "category": "Media",
+  "architectures": [
+    "amd64"
+  ],
+  "repo": "https://github.com/kaanaldemir/shinobi-zimaos-image",
+  "tips": {
+    "before_install": "İki servisteki veritabanı şifrelerini eşleştirin ve root şifresini değiştirin. İlk yönetici: /super, admin@shinobi.video / admin; hemen değiştirin. GPU hızlandırma için mevcutsa /dev/dri aygıtını ekleyin. Mevcut kamera verilerini otomatik devralmaz."
+  },
+  "update_at": "2026-10-17",
+  "title": "Shinobi",
+  "base_url": "https://kaanaldemir.github.io/zimaos-appstore",
+  "id": "com.kaanaldemir.shinobi",
+  "version": "1.0.1792195851",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 515527806
+  }
+}

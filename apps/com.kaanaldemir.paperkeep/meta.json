@@ -1,0 +1,26 @@
+{
+  "tagline": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi.",
+  "description": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi.",
+  "author": "kaanaldemir",
+  "developer": "kaanaldemir",
+  "category": "Productivity",
+  "architectures": [
+    "amd64"
+  ],
+  "repo": "https://github.com/kaanaldemir/paperkeep",
+  "tips": {
+    "before_install": "Kurulumdan önce güçlü bir AUTH_PASSWORD belirleyin, APP_ORIGIN değerini açacağınız adresle aynı yapın. Yedek yolunu ayrı diskte seçin. HTTPS proxy ZimaOS kurulumundan sonra ayrıca ayarlanır. Önceki denemenin yazıları bu yeni kuruluma otomatik yüklenmez."
+  },
+  "update_at": "2026-10-17",
+  "title": "Paperkeep",
+  "base_url": "https://kaanaldemir.github.io/zimaos-appstore",
+  "id": "com.kaanaldemir.paperkeep",
+  "version": "1.0.1792195851",
+  "categories": [
+    "productivity"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 90435247
+  }
+}

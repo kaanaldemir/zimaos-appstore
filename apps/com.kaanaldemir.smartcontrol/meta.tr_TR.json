@@ -1,0 +1,9 @@
+{
+  "id": "com.kaanaldemir.smartcontrol",
+  "title": "Smart Control",
+  "tagline": "WiZ ve Xiaomi akıllı priz kontrolü.",
+  "description": "WiZ ve Xiaomi akıllı priz kontrolü.",
+  "tips": {
+    "before_install": "Kurulumdan önce cihaz IP adreslerini, Xiaomi tokenini ve kullanıcı adı/şifreyi ayarlayın. Mevcut Smart Control kurulumunu otomatik devralmaz."
+  }
+}

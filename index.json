@@ -1,0 +1,128 @@
+{
+  "version": 2,
+  "updated_at": "2026-10-17T00:11:18Z",
+  "app_count": 6,
+  "base_url": "https://kaanaldemir.github.io/zimaos-appstore",
+  "apps": [
+    {
+      "id": "com.kaanaldemir.headplane",
+      "title": "Headplane WebSSH",
+      "tagline": "Headscale yönetimi ve WebSSH destekli Headplane.",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "kaanaldemir",
+      "developer": "tale / kaanaldemir",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.kaanaldemir.headplane/assets/icon.svg",
+      "thumbnail": "",
+      "compose_url": "/apps/com.kaanaldemir.headplane/docker-compose.yml",
+      "meta_url": "/apps/com.kaanaldemir.headplane/meta.json",
+      "content_hash": "68bf05ff",
+      "version": "1.0.1792195851"
+    },
+    {
+      "id": "com.kaanaldemir.paperkeep",
+      "title": "Paperkeep",
+      "tagline": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi.",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "kaanaldemir",
+      "developer": "kaanaldemir",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.kaanaldemir.paperkeep/assets/icon.svg",
+      "thumbnail": "",
+      "compose_url": "/apps/com.kaanaldemir.paperkeep/docker-compose.yml",
+      "meta_url": "/apps/com.kaanaldemir.paperkeep/meta.json",
+      "content_hash": "9ca4a7db",
+      "version": "1.0.1792195851"
+    },
+    {
+      "id": "com.kaanaldemir.pianostudio",
+      "title": "Piano Studio",
+      "tagline": "Tarayıcıda MIDI piyano stüdyosu.",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "kaanaldemir",
+      "developer": "midee contributors / kaanaldemir",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.kaanaldemir.pianostudio/assets/icon.svg",
+      "thumbnail": "",
+      "compose_url": "/apps/com.kaanaldemir.pianostudio/docker-compose.yml",
+      "meta_url": "/apps/com.kaanaldemir.pianostudio/meta.json",
+      "content_hash": "ec17643e",
+      "version": "1.0.1792195850"
+    },
+    {
+      "id": "com.kaanaldemir.projectzomboid",
+      "title": "Project Zomboid",
+      "tagline": "Project Zomboid sunucusu ve kontrol paneli.",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "kaanaldemir",
+      "developer": "fpsacha / kaanaldemir",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.kaanaldemir.projectzomboid/assets/icon.svg",
+      "thumbnail": "",
+      "compose_url": "/apps/com.kaanaldemir.projectzomboid/docker-compose.yml",
+      "meta_url": "/apps/com.kaanaldemir.projectzomboid/meta.json",
+      "content_hash": "54061960",
+      "version": "1.0.1792195850"
+    },
+    {
+      "id": "com.kaanaldemir.shinobi",
+      "title": "Shinobi",
+      "tagline": "Kamera kaydı ve izleme; Intel FFmpeg destekli imaj.",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "kaanaldemir",
+      "developer": "Shinobi Systems / kaanaldemir",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.kaanaldemir.shinobi/assets/icon.svg",
+      "thumbnail": "",
+      "compose_url": "/apps/com.kaanaldemir.shinobi/docker-compose.yml",
+      "meta_url": "/apps/com.kaanaldemir.shinobi/meta.json",
+      "content_hash": "482aa6fd",
+      "version": "1.0.1792195851"
+    },
+    {
+      "id": "com.kaanaldemir.smartcontrol",
+      "title": "Smart Control",
+      "tagline": "WiZ ve Xiaomi akıllı priz kontrolü.",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "author": "kaanaldemir",
+      "developer": "kaanaldemir",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/com.kaanaldemir.smartcontrol/assets/icon.svg",
+      "thumbnail": "",
+      "compose_url": "/apps/com.kaanaldemir.smartcontrol/docker-compose.yml",
+      "meta_url": "/apps/com.kaanaldemir.smartcontrol/meta.json",
+      "content_hash": "15203f5f",
+      "version": "1.0.1792195849"
+    }
+  ]
+}
