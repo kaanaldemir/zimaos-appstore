@@ -1,0 +1,62 @@
+{
+  "name": "kaan-headplane",
+  "services": {
+    "headplane": {
+      "image": "ghcr.io/kaanaldemir/headplane:latest-webssh",
+      "restart": "unless-stopped",
+      "ports": [
+        {
+          "target": 3000,
+          "published": "3002",
+          "protocol": "tcp"
+        }
+      ],
+      "environment": {
+        "HEADPLANE_SERVER__HOST": "0.0.0.0",
+        "HEADPLANE_SERVER__PORT": "3000",
+        "HEADPLANE_SERVER__COOKIE_SECRET": "CHANGE_ME_32_CHARACTER_RANDOM_KEY",
+        "HEADPLANE_SERVER__COOKIE_SECURE": "false",
+        "HEADPLANE_HEADSCALE__URL": "http://192.168.1.219:8085",
+        "HEADPLANE_INTEGRATION__DOCKER__ENABLED": "false",
+        "HEADPLANE_INTEGRATION__AGENT__ENABLED": "false"
+      },
+      "volumes": [
+        "/DATA/AppData/kaan-headplane/data:/var/lib/headplane"
+      ]
+    }
+  },
+  "x-casaos": {
+    "id": "com.kaanaldemir.headplane",
+    "main": "headplane",
+    "index": "/admin",
+    "port_map": "3002",
+    "scheme": "http",
+    "icon": "https://raw.githubusercontent.com/kaanaldemir/zimaos-appstore/main/Apps/Headplane/icon.svg",
+    "title": {
+      "en_US": "Headplane WebSSH",
+      "tr_TR": "Headplane WebSSH"
+    },
+    "tagline": {
+      "en_US": "Headscale yönetimi ve WebSSH destekli Headplane.",
+      "tr_TR": "Headscale yönetimi ve WebSSH destekli Headplane."
+    },
+    "description": {
+      "en_US": "Headscale yönetimi ve WebSSH destekli Headplane.",
+      "tr_TR": "Headscale yönetimi ve WebSSH destekli Headplane."
+    },
+    "author": "kaanaldemir",
+    "developer": "tale / kaanaldemir",
+    "category": "Networking",
+    "architectures": [
+      "amd64"
+    ],
+    "version": "1.0.0",
+    "repo": "https://github.com/kaanaldemir/headplane",
+    "tips": {
+      "before_install": {
+        "en_US": "Çalışan Headscale gerektirir. HEADSCALE__URL ve 32 karakterlik rastgele COOKIE_SECRET ayarlayın. HTTPS proxy kullanırken COOKIE_SECURE=true yapın. Headscale API anahtarıyla giriş yapılır; WebSSH agent ayarları ayrıca gereklidir.",
+        "tr_TR": "Çalışan Headscale gerektirir. HEADSCALE__URL ve 32 karakterlik rastgele COOKIE_SECRET ayarlayın. HTTPS proxy kullanırken COOKIE_SECURE=true yapın. Headscale API anahtarıyla giriş yapılır; WebSSH agent ayarları ayrıca gereklidir."
+      }
+    }
+  }
+}

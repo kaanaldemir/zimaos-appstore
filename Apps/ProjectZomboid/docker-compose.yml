@@ -1,0 +1,78 @@
+{
+  "name": "kaan-projectzomboid",
+  "services": {
+    "panel": {
+      "image": "ghcr.io/kaanaldemir/zomboid-panel-allinone:latest",
+      "restart": "unless-stopped",
+      "ports": [
+        {
+          "target": 3001,
+          "published": "3001",
+          "protocol": "tcp"
+        },
+        {
+          "target": 16261,
+          "published": "16261",
+          "protocol": "udp"
+        },
+        {
+          "target": 16262,
+          "published": "16262",
+          "protocol": "udp"
+        }
+      ],
+      "environment": {
+        "NODE_ENV": "production",
+        "PZ_SERVER_PATH": "/pz-server",
+        "PZ_SAVE_PATH": "/zomboid",
+        "PZ_SERVER_BAT": "start-server.sh",
+        "RCON_HOST": "127.0.0.1",
+        "RCON_PORT": "27015",
+        "CORS_ORIGINS": "http://192.168.1.219:3001",
+        "TRUST_PROXY": "1",
+        "PANEL_LAN_IP": "192.168.1.219",
+        "PANEL_WAN_IP": ""
+      },
+      "volumes": [
+        "/DATA/AppData/kaan-project-zomboid/panel-data:/app/data",
+        "/DATA/AppData/kaan-project-zomboid/logs:/app/logs",
+        "/DATA/AppData/kaan-project-zomboid/server:/pz-server",
+        "/DATA/AppData/kaan-project-zomboid/saves:/zomboid"
+      ]
+    }
+  },
+  "x-casaos": {
+    "id": "com.kaanaldemir.projectzomboid",
+    "main": "panel",
+    "index": "/",
+    "port_map": "3001",
+    "scheme": "http",
+    "icon": "https://raw.githubusercontent.com/kaanaldemir/zimaos-appstore/main/Apps/ProjectZomboid/icon.svg",
+    "title": {
+      "en_US": "Project Zomboid",
+      "tr_TR": "Project Zomboid"
+    },
+    "tagline": {
+      "en_US": "Project Zomboid sunucusu ve kontrol paneli.",
+      "tr_TR": "Project Zomboid sunucusu ve kontrol paneli."
+    },
+    "description": {
+      "en_US": "Project Zomboid sunucusu ve kontrol paneli.",
+      "tr_TR": "Project Zomboid sunucusu ve kontrol paneli."
+    },
+    "author": "kaanaldemir",
+    "developer": "fpsacha / kaanaldemir",
+    "category": "Others",
+    "architectures": [
+      "amd64"
+    ],
+    "version": "1.0.0",
+    "repo": "https://github.com/kaanaldemir/zomboid-allinone-image",
+    "tips": {
+      "before_install": {
+        "en_US": "LAN IP ve CORS_ORIGINS değerlerini ayarlayın. Güncellemeden önce oyun sunucusunu panelden durdurun; ardından PanelBridge Auto Configure/Update çalıştırın. Eski kurulumun kayıtlarını otomatik devralmaz.",
+        "tr_TR": "LAN IP ve CORS_ORIGINS değerlerini ayarlayın. Güncellemeden önce oyun sunucusunu panelden durdurun; ardından PanelBridge Auto Configure/Update çalıştırın. Eski kurulumun kayıtlarını otomatik devralmaz."
+      }
+    }
+  }
+}

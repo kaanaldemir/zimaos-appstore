@@ -1,0 +1,50 @@
+{
+  "name": "kaan-pianostudio",
+  "services": {
+    "piano-studio": {
+      "image": "ghcr.io/kaanaldemir/midee-selfhost:latest",
+      "restart": "unless-stopped",
+      "ports": [
+        {
+          "target": 80,
+          "published": "8088",
+          "protocol": "tcp"
+        }
+      ]
+    }
+  },
+  "x-casaos": {
+    "id": "com.kaanaldemir.pianostudio",
+    "main": "piano-studio",
+    "index": "/",
+    "port_map": "8088",
+    "scheme": "http",
+    "icon": "https://raw.githubusercontent.com/kaanaldemir/zimaos-appstore/main/Apps/PianoStudio/icon.svg",
+    "title": {
+      "en_US": "Piano Studio",
+      "tr_TR": "Piano Studio"
+    },
+    "tagline": {
+      "en_US": "Tarayıcıda MIDI piyano stüdyosu.",
+      "tr_TR": "Tarayıcıda MIDI piyano stüdyosu."
+    },
+    "description": {
+      "en_US": "Tarayıcıda MIDI piyano stüdyosu.",
+      "tr_TR": "Tarayıcıda MIDI piyano stüdyosu."
+    },
+    "author": "kaanaldemir",
+    "developer": "midee contributors / kaanaldemir",
+    "category": "Media",
+    "architectures": [
+      "amd64"
+    ],
+    "version": "1.0.0",
+    "repo": "https://github.com/kaanaldemir/midee-selfhost",
+    "tips": {
+      "before_install": {
+        "en_US": "MIDI ve kayıt dosyaları tarayıcıda tutulur. Aynı portta mevcut bir uygulama varsa kurulum portunu değiştirin.",
+        "tr_TR": "MIDI ve kayıt dosyaları tarayıcıda tutulur. Aynı portta mevcut bir uygulama varsa kurulum portunu değiştirin."
+      }
+    }
+  }
+}

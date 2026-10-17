@@ -1,0 +1,49 @@
+name: Publish app store
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '29 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: publish-app-store
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare public images and update versions
+        run: python3 scripts/prepare.py
+      - name: Validate Compose recipes
+        run: |
+          for file in staging/Apps/*/docker-compose.yml; do
+            docker compose -f "$file" config --quiet
+          done
+      - name: Build official ZimaOS v2 catalog
+        uses: IceWhaleTech/build-appstore-action@v1
+        with:
+          source: staging
+          output: dist
+          base-url: https://kaanaldemir.github.io/zimaos-appstore
+          report-json: out/build-report.json
+      - name: Build legacy ZIP and preserve refresh state
+        run: |
+          python3 scripts/legacy.py
+          cp out/image-state.json dist/image-state.json
+          cp out/pending.json dist/pending.json
+          touch dist/.nojekyll
+      - name: Upload build evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: store-build-evidence
+          path: out/
+      - name: Publish static catalog
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: dist

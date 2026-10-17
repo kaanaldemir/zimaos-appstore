@@ -1,0 +1,56 @@
+{
+  "name": "kaan-smartcontrol",
+  "services": {
+    "smart-control": {
+      "image": "ghcr.io/kaanaldemir/zimaos-smart-control:latest",
+      "restart": "unless-stopped",
+      "network_mode": "host",
+      "environment": {
+        "PORT": "8099",
+        "BASE_PATH": "/devices",
+        "API_BASE_PATH": "/devices-api",
+        "WIZ_LIGHT_IP": "192.168.1.149",
+        "XIAOMI_PLUG_IP": "192.168.1.207",
+        "XIAOMI_MODE": "miot",
+        "XIAOMI_TIMEOUT": "2",
+        "UI_USERNAME": "",
+        "UI_PASSWORD": "",
+        "XIAOMI_TOKEN": ""
+      }
+    }
+  },
+  "x-casaos": {
+    "id": "com.kaanaldemir.smartcontrol",
+    "main": "smart-control",
+    "index": "/devices",
+    "port_map": "8099",
+    "scheme": "http",
+    "icon": "https://raw.githubusercontent.com/kaanaldemir/zimaos-appstore/main/Apps/SmartControl/icon.svg",
+    "title": {
+      "en_US": "Smart Control",
+      "tr_TR": "Smart Control"
+    },
+    "tagline": {
+      "en_US": "WiZ ve Xiaomi akıllı priz kontrolü.",
+      "tr_TR": "WiZ ve Xiaomi akıllı priz kontrolü."
+    },
+    "description": {
+      "en_US": "WiZ ve Xiaomi akıllı priz kontrolü.",
+      "tr_TR": "WiZ ve Xiaomi akıllı priz kontrolü."
+    },
+    "author": "kaanaldemir",
+    "developer": "kaanaldemir",
+    "category": "Home",
+    "architectures": [
+      "amd64"
+    ],
+    "version": "1.0.0",
+    "repo": "https://github.com/kaanaldemir/zimaos-smart-control",
+    "tips": {
+      "before_install": {
+        "en_US": "Kurulumdan önce cihaz IP adreslerini, Xiaomi tokenini ve kullanıcı adı/şifreyi ayarlayın. Mevcut Smart Control kurulumunu otomatik devralmaz.",
+        "tr_TR": "Kurulumdan önce cihaz IP adreslerini, Xiaomi tokenini ve kullanıcı adı/şifreyi ayarlayın. Mevcut Smart Control kurulumunu otomatik devralmaz."
+      }
+    }
+  }
+}

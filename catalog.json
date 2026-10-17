@@ -1,0 +1,44 @@
+[
+  {
+    "folder": "SmartControl",
+    "id": "com.kaanaldemir.smartcontrol",
+    "source": "Apps/SmartControl",
+    "image": "ghcr.io/kaanaldemir/zimaos-smart-control:latest",
+    "optional": false
+  },
+  {
+    "folder": "PianoStudio",
+    "id": "com.kaanaldemir.pianostudio",
+    "source": "Apps/PianoStudio",
+    "image": "ghcr.io/kaanaldemir/midee-selfhost:latest",
+    "optional": false
+  },
+  {
+    "folder": "ProjectZomboid",
+    "id": "com.kaanaldemir.projectzomboid",
+    "source": "Apps/ProjectZomboid",
+    "image": "ghcr.io/kaanaldemir/zomboid-panel-allinone:latest",
+    "optional": false
+  },
+  {
+    "folder": "Shinobi",
+    "id": "com.kaanaldemir.shinobi",
+    "source": "Apps/Shinobi",
+    "image": "ghcr.io/kaanaldemir/shinobi-zimaos:latest",
+    "optional": false
+  },
+  {
+    "folder": "Headplane",
+    "id": "com.kaanaldemir.headplane",
+    "source": "Apps/Headplane",
+    "image": "ghcr.io/kaanaldemir/headplane:latest-webssh",
+    "optional": false
+  },
+  {
+    "folder": "Paperkeep",
+    "id": "com.kaanaldemir.paperkeep",
+    "source": "Pending/Paperkeep",
+    "image": "ghcr.io/kaanaldemir/paperkeep:latest",
+    "optional": true
+  }
+]

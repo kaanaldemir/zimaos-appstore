@@ -1,0 +1,61 @@
+{
+  "name": "kaan-paperkeep",
+  "services": {
+    "paperkeep": {
+      "image": "ghcr.io/kaanaldemir/paperkeep:latest",
+      "restart": "unless-stopped",
+      "ports": [
+        {
+          "target": 3210,
+          "published": "3210",
+          "protocol": "tcp"
+        }
+      ],
+      "environment": {
+        "APP_ORIGIN": "https://kitap.kaanaldemir.com",
+        "AUTH_PASSWORD": "CHANGE_ME_BEFORE_INSTALL",
+        "TRUST_PROXY": "1",
+        "BACKUP_INTERVAL_MS": "3600000"
+      },
+      "user": "0:0",
+      "volumes": [
+        "/DATA/AppData/kaan-paperkeep/data:/data",
+        "/media/HDD-Storage/Paperkeep-Backups:/backups"
+      ]
+    }
+  },
+  "x-casaos": {
+    "id": "com.kaanaldemir.paperkeep",
+    "main": "paperkeep",
+    "index": "/",
+    "port_map": "3210",
+    "scheme": "http",
+    "icon": "https://raw.githubusercontent.com/kaanaldemir/zimaos-appstore/main/Pending/Paperkeep/icon.svg",
+    "title": {
+      "en_US": "Paperkeep",
+      "tr_TR": "Paperkeep"
+    },
+    "tagline": {
+      "en_US": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi.",
+      "tr_TR": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi."
+    },
+    "description": {
+      "en_US": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi.",
+      "tr_TR": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi."
+    },
+    "author": "kaanaldemir",
+    "developer": "kaanaldemir",
+    "category": "Productivity",
+    "architectures": [
+      "amd64"
+    ],
+    "version": "1.0.0",
+    "repo": "https://github.com/kaanaldemir/paperkeep",
+    "tips": {
+      "before_install": {
+        "en_US": "Kurulumdan önce güçlü bir AUTH_PASSWORD belirleyin, APP_ORIGIN değerini açacağınız adresle aynı yapın. Yedek yolunu ayrı diskte seçin. HTTPS proxy ZimaOS kurulumundan sonra ayrıca ayarlanır. Önceki denemenin yazıları bu yeni kuruluma otomatik yüklenmez.",
+        "tr_TR": "Kurulumdan önce güçlü bir AUTH_PASSWORD belirleyin, APP_ORIGIN değerini açacağınız adresle aynı yapın. Yedek yolunu ayrı diskte seçin. HTTPS proxy ZimaOS kurulumundan sonra ayrıca ayarlanır. Önceki denemenin yazıları bu yeni kuruluma otomatik yüklenmez."
+      }
+    }
+  }
+}
