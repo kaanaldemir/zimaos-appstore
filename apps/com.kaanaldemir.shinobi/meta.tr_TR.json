@@ -1,8 +1,8 @@
 {
   "id": "com.kaanaldemir.shinobi",
   "title": "Shinobi",
-  "description": "Kamera kaydı ve izleme; Intel FFmpeg destekli imaj.",
   "tagline": "Kamera kaydı ve izleme; Intel FFmpeg destekli imaj.",
+  "description": "Kamera kaydı ve izleme; Intel FFmpeg destekli imaj.",
   "tips": {
     "before_install": "İki servisteki veritabanı şifrelerini eşleştirin ve root şifresini değiştirin. İlk yönetici: /super, admin@shinobi.video / admin; hemen değiştirin. GPU hızlandırma için mevcutsa /dev/dri aygıtını ekleyin. Mevcut kamera verilerini otomatik devralmaz."
   }
