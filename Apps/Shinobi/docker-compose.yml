@@ -14,7 +14,7 @@
       "environment": {
         "DB_HOST": "database",
         "DB_USER": "shinobi",
-        "DB_PASSWORD": "CHANGE_ME_DATABASE_PASSWORD",
+        "DB_PASSWORD": "",
         "DB_DATABASE": "ccio",
         "SHINOBI_UPDATE": "false",
         "TZ": "Europe/Istanbul"
@@ -40,10 +40,10 @@
       "image": "mariadb:10.11",
       "restart": "unless-stopped",
       "environment": {
-        "MARIADB_ROOT_PASSWORD": "CHANGE_ME_ROOT_PASSWORD",
+        "MARIADB_ROOT_PASSWORD": "",
         "MARIADB_DATABASE": "ccio",
         "MARIADB_USER": "shinobi",
-        "MARIADB_PASSWORD": "CHANGE_ME_DATABASE_PASSWORD"
+        "MARIADB_PASSWORD": ""
       },
       "volumes": [
         "/DATA/AppData/kaan-shinobi/database:/var/lib/mysql"

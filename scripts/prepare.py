@@ -41,7 +41,8 @@ def main():
    if entry.get('optional') and error.code in [401,403,404]:
     skipped.append(entry['folder']);print('Pending public image:',entry['folder']);continue
    raise
-  identity=hashlib.sha256(json.dumps({'source':compose,'images':image_set},sort_keys=True).encode()).hexdigest()
+  assets={str(p.relative_to(source)):hashlib.sha256(p.read_bytes()).hexdigest() for p in source.rglob('*') if p.is_file() and p.name!='docker-compose.yml'}
+  identity=hashlib.sha256(json.dumps({'source':compose,'images':image_set,'assets':assets},sort_keys=True).encode()).hexdigest()
   old=previous.get(entry['id'],{})
   version=old.get('version') if old.get('identity')==identity else '1.0.'+str(int(time.time()))
   compose['x-casaos']['version']=version

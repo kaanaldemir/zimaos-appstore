@@ -37,7 +37,7 @@
   {
     "folder": "Paperkeep",
     "id": "com.kaanaldemir.paperkeep",
-    "source": "Pending/Paperkeep",
+    "source": "Apps/Paperkeep",
     "image": "ghcr.io/kaanaldemir/paperkeep:latest",
     "optional": true
   }

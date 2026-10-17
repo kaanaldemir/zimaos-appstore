@@ -6,7 +6,7 @@ Personal community app store for ZimaOS. Add this URL under App Store → Commun
 
 Legacy ZIP fallback: `https://kaanaldemir.github.io/zimaos-appstore/store/main.zip`
 
-The catalog contains Smart Control, Piano Studio, Project Zomboid, Shinobi and Headplane. Paperkeep is automatically included once its GHCR image is publicly downloadable. Only amd64 is advertised because these personal images are built for the mini PC architecture.
+The catalog contains Paperkeep, Smart Control, Piano Studio, Project Zomboid, Shinobi and Headplane. Paperkeep is included while its GHCR image is publicly downloadable. Only amd64 is advertised because these personal images are built for the mini PC architecture.
 
 ## Updates
 

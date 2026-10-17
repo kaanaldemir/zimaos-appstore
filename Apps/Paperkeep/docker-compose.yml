@@ -13,7 +13,7 @@
       ],
       "environment": {
         "APP_ORIGIN": "https://kitap.kaanaldemir.com",
-        "AUTH_PASSWORD": "CHANGE_ME_BEFORE_INSTALL",
+        "AUTH_PASSWORD": "",
         "TRUST_PROXY": "1",
         "BACKUP_INTERVAL_MS": "3600000"
       },
@@ -30,7 +30,7 @@
     "index": "/",
     "port_map": "3210",
     "scheme": "http",
-    "icon": "https://raw.githubusercontent.com/kaanaldemir/zimaos-appstore/main/Pending/Paperkeep/icon.svg",
+    "icon": "https://raw.githubusercontent.com/kaanaldemir/zimaos-appstore/main/Apps/Paperkeep/icon.svg",
     "title": {
       "en_US": "Paperkeep",
       "tr_TR": "Paperkeep"
