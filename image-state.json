@@ -24,12 +24,12 @@
     }
   },
   "com.kaanaldemir.shinobi": {
-    "identity": "0fd8cd2183b2dddd93df81cf09694383331a35d5f6cb18097b847bacc783a60c",
-    "version": "1.0.1793078428",
+    "identity": "4258e5b81d31a17179f3cfd06c80256533c314a20049d6e8b57f4cc26505113e",
+    "version": "1.0.1793104246",
     "update_at": "2026-10-27",
     "images": {
       "shinobi": "sha256:6f4eb195d036a8975cb1865f6d27f7b9fbd2ec371efcdd9318c220786dd823b7",
-      "database": "sha256:be23f119c5a7fa9f8a1142efc172d58de3680e7411f383a86f625ad6508af2b1"
+      "database": "sha256:d769e37960821dfdcf096954f6e7ac89f747e116c1bba98e48edd265dfc7deae"
     }
   },
   "com.kaanaldemir.headplane": {
