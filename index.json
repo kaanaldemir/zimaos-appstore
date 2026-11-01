@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-01T06:32:34Z",
+  "updated_at": "2026-11-01T18:00:48Z",
   "app_count": 6,
   "base_url": "https://kaanaldemir.github.io/zimaos-appstore",
   "apps": [
@@ -21,8 +21,8 @@
       "thumbnail": "",
       "compose_url": "/apps/com.kaanaldemir.headplane/docker-compose.yml",
       "meta_url": "/apps/com.kaanaldemir.headplane/meta.json",
-      "content_hash": "ffe279f4",
-      "version": "1.0.1792195946"
+      "content_hash": "cca394bf",
+      "version": "1.0.1793556020"
     },
     {
       "id": "com.kaanaldemir.paperkeep",

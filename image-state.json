@@ -33,11 +33,11 @@
     }
   },
   "com.kaanaldemir.headplane": {
-    "identity": "557f136b9f8ff6e278eb426fa23a387466c8bb883d8cdb86be37e9029fd96503",
-    "version": "1.0.1792195946",
-    "update_at": "2026-10-17",
+    "identity": "39992d8df83d54cc0d5febc29d1d0eb8250932f92553e282a8fd849314a8c585",
+    "version": "1.0.1793556020",
+    "update_at": "2026-11-01",
     "images": {
-      "headplane": "sha256:415509d21245caf1c9e130f36c1a54f1dbabd6f2125a9f3c8b6ed9d8760c1a99"
+      "headplane": "sha256:6843f4f8f35d13f7c58905d2f8a817e33d1dadffa1d847088bdb4fb105f624fe"
     }
   },
   "com.kaanaldemir.paperkeep": {
