@@ -1,8 +1,8 @@
 {
   "id": "com.kaanaldemir.paperkeep",
   "title": "Paperkeep",
-  "tagline": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi.",
   "description": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi.",
+  "tagline": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi.",
   "tips": {
     "before_install": "Kurulumdan önce güçlü bir AUTH_PASSWORD belirleyin, APP_ORIGIN değerini açacağınız adresle aynı yapın. Yedek yolunu ayrı diskte seçin. HTTPS proxy ZimaOS kurulumundan sonra ayrıca ayarlanır. Önceki denemenin yazıları bu yeni kuruluma otomatik yüklenmez."
   }

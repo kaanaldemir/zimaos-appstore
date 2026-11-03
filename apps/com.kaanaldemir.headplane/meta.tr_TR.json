@@ -1,8 +1,8 @@
 {
   "id": "com.kaanaldemir.headplane",
   "title": "Headplane WebSSH",
-  "tagline": "Headscale yönetimi ve WebSSH destekli Headplane.",
   "description": "Headscale yönetimi ve WebSSH destekli Headplane.",
+  "tagline": "Headscale yönetimi ve WebSSH destekli Headplane.",
   "tips": {
     "before_install": "Çalışan Headscale gerektirir. HEADSCALE__URL ve 32 karakterlik rastgele COOKIE_SECRET ayarlayın. HTTPS proxy kullanırken COOKIE_SECURE=true yapın. Headscale API anahtarıyla giriş yapılır; WebSSH agent ayarları ayrıca gereklidir."
   }
