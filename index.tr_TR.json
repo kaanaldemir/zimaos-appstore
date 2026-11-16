@@ -2,33 +2,33 @@
   "apps": [
     {
       "id": "com.kaanaldemir.headplane",
-      "title": "Headplane WebSSH",
-      "tagline": "Headscale yönetimi ve WebSSH destekli Headplane."
+      "tagline": "Headscale yönetimi ve WebSSH destekli Headplane.",
+      "title": "Headplane WebSSH"
     },
     {
       "id": "com.kaanaldemir.paperkeep",
-      "title": "Paperkeep",
-      "tagline": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi."
+      "tagline": "Türkçe sayfalı yazı uygulaması; otomatik kayıt ve sürüm geçmişi.",
+      "title": "Paperkeep"
     },
     {
       "id": "com.kaanaldemir.pianostudio",
-      "title": "Piano Studio",
-      "tagline": "Tarayıcıda MIDI piyano stüdyosu."
+      "tagline": "Tarayıcıda MIDI piyano stüdyosu.",
+      "title": "Piano Studio"
     },
     {
       "id": "com.kaanaldemir.projectzomboid",
-      "title": "Project Zomboid",
-      "tagline": "Project Zomboid sunucusu ve kontrol paneli."
+      "tagline": "Project Zomboid sunucusu ve kontrol paneli.",
+      "title": "Project Zomboid"
     },
     {
       "id": "com.kaanaldemir.shinobi",
-      "title": "Shinobi",
-      "tagline": "Kamera kaydı ve izleme; Intel FFmpeg destekli imaj."
+      "tagline": "Kamera kaydı ve izleme; Intel FFmpeg destekli imaj.",
+      "title": "Shinobi"
     },
     {
       "id": "com.kaanaldemir.smartcontrol",
-      "title": "Smart Control",
-      "tagline": "WiZ ve Xiaomi akıllı priz kontrolü."
+      "tagline": "WiZ ve Xiaomi akıllı priz kontrolü.",
+      "title": "Smart Control"
     }
   ]
 }
