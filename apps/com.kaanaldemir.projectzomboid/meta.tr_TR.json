@@ -1,8 +1,8 @@
 {
   "id": "com.kaanaldemir.projectzomboid",
   "title": "Project Zomboid",
-  "tagline": "Project Zomboid sunucusu ve kontrol paneli.",
   "description": "Project Zomboid sunucusu ve kontrol paneli.",
+  "tagline": "Project Zomboid sunucusu ve kontrol paneli.",
   "tips": {
     "before_install": "LAN IP ve CORS_ORIGINS değerlerini ayarlayın. Güncellemeden önce oyun sunucusunu panelden durdurun; ardından PanelBridge Auto Configure/Update çalıştırın. Eski kurulumun kayıtlarını otomatik devralmaz."
   }
