@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-19T20:51:38Z",
+  "updated_at": "2026-11-20T07:35:03Z",
   "app_count": 6,
   "base_url": "https://kaanaldemir.github.io/zimaos-appstore",
   "apps": [
@@ -101,8 +101,8 @@
       "thumbnail": "",
       "compose_url": "/apps/com.kaanaldemir.shinobi/docker-compose.yml",
       "meta_url": "/apps/com.kaanaldemir.shinobi/meta.json",
-      "content_hash": "47c1f4a9",
-      "version": "1.0.1794468520"
+      "content_hash": "9457025e",
+      "version": "1.0.1795160055"
     },
     {
       "id": "com.kaanaldemir.smartcontrol",
