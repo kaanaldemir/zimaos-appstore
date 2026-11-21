@@ -1,8 +1,8 @@
 {
   "id": "com.kaanaldemir.pianostudio",
   "title": "Piano Studio",
-  "description": "Tarayıcıda MIDI piyano stüdyosu.",
   "tagline": "Tarayıcıda MIDI piyano stüdyosu.",
+  "description": "Tarayıcıda MIDI piyano stüdyosu.",
   "tips": {
     "before_install": "MIDI ve kayıt dosyaları tarayıcıda tutulur. Aynı portta mevcut bir uygulama varsa kurulum portunu değiştirin."
   }
